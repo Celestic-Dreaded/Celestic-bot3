@@ -1,13 +1,13 @@
 {
-    "name": "Nezuko",
+    "name": "Black-Dragon",
     "description": "A simple and easy-to-use WhatsApp bot project based on Multi-Device Baileys and written in JavaScript",
     "keywords": [
         "bot",
         "whatsapp"
     ],
     "logo": "https://avatars.githubusercontent.com/u/117456661",
-    "website": "https://github.com/EternityBots/Nezuko",
-    "repository": "https://github.com/EternityBots/Nezuko.git",
+    "website": "https://github.com/nimesh-official/Black-Dragon",
+    "repository": "https://github.com/nimesh-official/Black-Dragon.git",
     "success_url": "/",
     "env": {
         "PREFIX": {
