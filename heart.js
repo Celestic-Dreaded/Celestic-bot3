@@ -85,7 +85,7 @@ const connect = async () => {
   let { version, isLatest } = await fetchLatestBaileysVersion();
   let connOptions = {
     printQRInTerminal: true,
-    browser: ["Nezuko", "Firefox", "105.0.1343.42"],
+    browser: ["Black Dragon", "Firefox", "105.0.1343.42"],
     logger: pino({ level: "silent" }),
     defautQueryTimeoutMs: undefined,
     auth: state,
