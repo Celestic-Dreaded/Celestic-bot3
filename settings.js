@@ -7,7 +7,7 @@ if (!gg) {
 }
 
 global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "none";
+global.mongodb = process.env.MONGODB || "mongodb://mongo:8srx0q0cRy7FORWk6xOX@containers-us-west-165.railway.app:5815";
 global.prefa = process.env.PREFIX || ".";
 global.ggle = process.env.GOOGLE_API || "none";
 global.wter = process.env.WEATHER_API || "none";
