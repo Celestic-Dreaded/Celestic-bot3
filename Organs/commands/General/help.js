@@ -67,7 +67,7 @@ module.exports = {
       } else {
         var emo = ["📖","🎉", "🍁", "🍀", "🌊", "🎵", "🔞", "🎟", "♨️", "🉐"];
       }
-      let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Nezuko*.
+      let txt = `*Hello* ${pushName} *Black Dragon*.
                        
 🧧 *Prefix :* [ ${prefix} ]
                        
