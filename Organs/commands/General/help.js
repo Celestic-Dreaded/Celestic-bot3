@@ -68,10 +68,91 @@ module.exports = {
         var emo = ["📖","🎉", "🍁", "🍀", "🌊", "🎵", "🔞", "🎟", "♨️", "🉐"];
       }
       let txt = `*Hello* ${pushName} *Black Dragon*.
-                       
-🧧 *Prefix :* [ ${prefix} ]
-                       
-📝 Here's the *Commands* listed below :\n\n`;
+      
+┌─✬ᴇᴅᴜᴄᴀᴛɪᴏɴ ᴄᴏᴍᴍᴀɴᴅꜱ✬
+│➠${prefix}caclculator
+│➠${prefix}define
+│➠${prefix}element
+└─────────◉
+
+┌─✬ꜰᴜɴ ᴄᴏᴍᴍᴀɴᴅꜱ✬
+│➠${prefix}reaction
+│➠${prefix}hitler
+│➠${prefix}rainbow
+│➠${prefix}rip
+│➠${prefix}old
+│➠${prefix}shit
+│➠${prefix}slap
+│➠${prefix}trash
+│➠${prefix}trigger
+│➠${prefix}wanted
+│➠${prefix}wasted
+└─────────◉
+
+┌─✬ᴍᴏᴅꜱ ᴄᴏᴍᴍᴀɴᴅꜱ✬
+│➠${prefix}eval
+│➠${prefix}ban
+│➠${prefix}broadcast
+│➠${prefix}leave
+│➠${prefix}unban
+└─────────◉
+
+┌─✬ɢᴇɴᴇʀᴀʟ ᴄᴏᴍᴍᴀɴᴅꜱ✬
+│➠${prefix}help
+│➠${prefix}hi
+│➠${prefix}mods
+│➠${prefix}repo
+│➠${prefix}profile
+│➠${prefix}rank
+│➠${prefix}stalk
+└─────────◉
+
+┌─✬ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅꜱ✬
+│➠${prefix}delete
+│➠${prefix}demote
+│➠${prefix}disable
+│➠${prefix}enable
+│➠${prefix}groupinfo
+│➠${prefix}ping
+│➠${prefix}promote
+│➠${prefix}remove
+│➠${prefix}setppgc
+│➠${prefix}support
+│➠${prefix}join
+└─────────◉
+
+┌─✬ᴍᴇᴅɪᴀ ᴄᴏᴍᴍᴀɴᴅꜱ✬
+│➠${prefix}spotify
+│➠${prefix}igd
+│➠${prefix}lyrics
+│➠${prefix}play
+│➠${prefix}playv
+│➠${prefix}yta
+│➠${prefix}yts
+│➠${prefix}ytv
+└─────────◉
+
+┌─✬ᴜᴛɪʟꜱ ᴄᴏᴍᴍᴀɴᴅꜱ✬
+│➠${prefix}google
+│➠${prefix}reddit
+│➠${prefix}shorturl
+│➠${prefix}steal
+│➠${prefix}sticker
+│➠${prefix}toimg
+│➠${prefix}weather
+└─────────◉
+
+┌─✬ᴡᴇᴇʙ ᴄᴏᴍᴍᴀɴᴅꜱ✬
+│➠${prefix}soppai
+│➠${prefix}anime
+│➠${prefix}cosplay
+│➠${prefix}couplepp
+│➠${prefix}genshin
+│➠${prefix}manga
+│➠${prefix}neko
+│➠${prefix}waifu
+│➠${prefix}wallpaper
+└─────────◉\n\n`;
       
       txt += `*ʙʟᴀᴄᴋ-ᴅʀᴀɢᴏɴ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*`
       const eternity = [
