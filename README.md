@@ -1,7 +1,7 @@
 <div align="center">
 <a href="https://www.youtube.com/watch?v=KqgyScOlvV8"><img src="https://i.ibb.co/Mfkw6xT/eternity-5.png" alt="2258810" border="0" /></a>
 
-# **NEZUKO : MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES**
+# **BLACK DRAGON : MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES**
 
 </p>
 <p align="center">
@@ -22,7 +22,7 @@
 
 > A simple and easy-to-use WhatsApp bot project with cool Features based on Multi-Device Baileys and written in JavaScript.
 
-## 💖 NEZUKO 💖
+## 💖 BLACK DRAGON 💖
 
 > This is a open source project by the TEAM ETERNITY. After forking If you change any codes and claim That's yours then Our Team will Take Action In that case so be careful and give Credit To The original Devloper of that Bot. if you Have any Questions Then Join Our support Group To Report Your Issues.
 
@@ -34,7 +34,7 @@ Nezuko is free and open-source software licensed under the [GNU Affero General P
 
 ## RAILWAY
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/xhqo2N?referralCode=QaaU0X)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new)
 
 ## KOYEB
 
@@ -42,11 +42,11 @@ Nezuko is free and open-source software licensed under the [GNU Affero General P
 
 ## Repl.it
 
-[![Run on Repl.it](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/main/buttons/remade/replit.svg)](https://repl.it/github/EternityBots/Nezuko)
+[![Run on Repl.it](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/main/buttons/remade/replit.svg)](https://repl.it/github/nimesh-official/Black-Dragon)
 
 ## Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EternityBots/Nezuko)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nimesh-official/Black-Dragon)
 
 ## 🐧 Linux Auto Install
 
