@@ -72,7 +72,7 @@ module.exports = {
 🧧 *Prefix :* [ ${prefix} ]
                        
 📝 Here's the *Commands* listed below :\n\n`;
-      }
+      
       txt += `*ʙʟᴀᴄᴋ-ᴅʀᴀɢᴏɴ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*`
       const eternity = [
         "https://telegra.ph/file/b1d2451fa3985018da8d7.jpg",
