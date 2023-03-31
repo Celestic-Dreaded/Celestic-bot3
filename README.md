@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://www.youtube.com/watch?v=KqgyScOlvV8"><img src="https://i.ibb.co/Mfkw6xT/eternity-5.png" alt="2258810" border="0" /></a>
+<a href="#"><img src="https://telegra.ph/file/b1d2451fa3985018da8d7.jpg" alt="2258810" border="0" /></a>
 
 # **BLACK DRAGON : MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES**
 
@@ -57,7 +57,7 @@ bash <(curl -L https://github.com/EternityBots/nezuko-bash/raw/main/install.sh)
 ## Clone this project
 
 ```bash
-> git clone https://github.com/Eternity-Bots/Nezuko
+> git clone https://github.com/nimesh-official/Black-Dragon
 ```
 
 ## Installation:
