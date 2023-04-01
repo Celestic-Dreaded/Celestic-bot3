@@ -102,7 +102,7 @@ const connect = async () => {
     .toString(16)
     .padStart(6, "0")}`;
 
-  await cfonts.say("NEZUKO\n\nBY\n\nETERNITY", {
+  await cfonts.say("BLACK\n\nDRAGON", {
     font: "block", // define the font face
     align: "center", // define text alignment
     colors: [randomHex, randomHexs], // define all colors
