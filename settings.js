@@ -15,6 +15,7 @@ global.sessionId = process.env.SESSION_ID || "DRAGON";
 global.malid = process.env.MAL_USERNAME || undefined;
 global.malpass = process.env.MAL_PASSWORD || undefined;
 global.port = process.env.PORT || 8080;
+global.inboxblock = "true";
 
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
