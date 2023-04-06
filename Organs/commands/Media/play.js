@@ -1,6 +1,7 @@
-const axios = require('axios')
+const YT = require('../../../lib/ytdl')
 const { isUrl, fetchBuffer } = require('../../../lib/Function')
 const fs=require("fs")
+const yts= require("yt-search")
 require ('../../../settings')
 module.exports={
     name:"play",
@@ -11,8 +12,26 @@ module.exports={
     react:"🎵",
     start:async(client,m,{command,prefix,text,args})=>{
                
-if (!text)  return m.reply(`Please Enter Youtube Song Name`)
-song = await axios.get(`https://api.zeeoneofc.my.id/api/downloader/youtube-playmp3?apikey=Lja3LTBXKt53Gm4&query=${text}`)
-await client.sendMessage(m.from,{audio: song.result.download,fileName: ${song.result.title}.mp3',mimetype: 'audio/mpeg'},{quoted:m})
+if(!text) return client.sendMessage(m.from,{text:"What you want to play"},{quoted:m})
+let yts = require("yt-search")
+        let search = await yts(text)
+        let anu = search.videos[0]
+const pl= await YT.mp3(anu.url)
+await client.sendMessage(m.from,{
+    audio: fs.readFileSync(pl.path),
+    fileName: anu.title + '.mp3',
+    mimetype: 'audio/mpeg',
+    contextInfo:{
+        externalAdReply:{
+            title:anu.title,
+            body: "ʙʟᴀᴄᴋ ᴅʀᴀɢᴏɴ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ",
+            thumbnail: await fetchBuffer(pl.meta.image),
+            mediaType:2,
+            mediaUrl:anu.url,
+        }
+
+    },
+},{quoted:m})
+await fs.unlinkSync(pl.path)
     }
 }
