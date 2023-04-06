@@ -13,19 +13,16 @@ module.exports={
     start:async(client,m,{command,prefix,text,args})=>{
                
 if(!text) return client.sendMessage(m.from,{text:"What you want to play"},{quoted:m})
-let yts = require("yt-search")
-        let search = await yts(text)
-        let anu = search.videos[0]
-const pl= await YT.mp3(anu.url)
+song = await fetchJson(`https://api.zeeoneofc.my.id/api/downloader/youtube-playmp3?apikey=Lja3LTBXKt53Gm4&query=${q}`)
 await client.sendMessage(m.from,{
-    audio: fs.readFileSync(pl.path),
-    fileName: anu.title + '.mp3',
+    audio: { url: song.result.download },
+    fileName: song.result.title + '.mp3',
     mimetype: 'audio/mpeg',
     contextInfo:{
         externalAdReply:{
-            title:anu.title,
+            title:song.result.title,
             body: "ʙʟᴀᴄᴋ-ᴅʀᴀɢᴏɴ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ",
-            thumbnail: await fetchBuffer(pl.meta.image),
+            thumbnail: song.result.thumbnail,
             mediaType:2,
             mediaUrl:anu.url,
         }
