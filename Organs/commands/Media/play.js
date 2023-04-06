@@ -12,9 +12,8 @@ module.exports={
     react:"🎵",
     start:async(client,m,{command,prefix,text,args})=>{
                
-if(!text) return client.sendMessage(m.from,{text:"What you want to play"},{quoted:m})
+if (!text)  return m.reply(`Please Enter Youtube Song Name`)
 song = await fetchBuffer(`https://api.zeeoneofc.my.id/api/downloader/youtube-playmp3?apikey=Lja3LTBXKt53Gm4&query=${text}`)
-await client.sendMessage(m.from,{audio: song.result.download,fileName: song.result.title.mp3',mimetype: 'audio/mpeg'},{quoted:m})
-await fs.unlinkSync(pl.path)
+await client.sendMessage(m.from,{audio: song.result.download,fileName: ${song.result.title}.mp3',mimetype: 'audio/mpeg'},{quoted:m})
     }
 }
